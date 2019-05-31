@@ -50,6 +50,7 @@
             dom.style.transform = `translateX(${clientWidth}px)`
             dom.style.fontSize = '20px'
             dom.style.fontWeight = '800'
+            dom.style.opacity = '0.5'//弹幕透明度
             if (!danmu.getAttribute('class').includes('color')){
                 dom.style.color = '#fff'
                 dom.style.textShadow = '#000 1px 0 0,#000 0 1px 0,#000 -1px 0 0,#000 0 -1px 0'
